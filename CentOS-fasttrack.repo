@@ -1,3 +1,5 @@
+[fasttrack]
+name=CentOS-6 - fasttrack - OVH BHS
 #mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=fasttrack&infra=$infra
 #baseurl=http://mirror.centos.org/centos/$releasever/fasttrack/$basearch/
 baseurl=http://mir1.ovh.ca/ftp.centos.org/$releasever/fasttrack/$basearch/
