@@ -1,0 +1,6 @@
+#mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=fasttrack&infra=$infra
+#baseurl=http://mirror.centos.org/centos/$releasever/fasttrack/$basearch/
+baseurl=http://mir1.ovh.ca/ftp.centos.org/$releasever/fasttrack/$basearch/
+gpgcheck=1
+enabled=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-6
