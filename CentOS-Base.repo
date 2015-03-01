@@ -11,7 +11,7 @@
 #
 
 [base]
-name=CentOS-$releasever - Base
+name=CentOS-$releasever - Base - OVH BHS
 #mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=os
 #baseurl=http://mirror.centos.org/centos/$releasever/os/$basearch/
 baseurl=http://mir1.ovh.ca/ftp.centos.org/$releasever/os/$basearch/
@@ -20,7 +20,7 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-6
 
 #released updates
 [updates]
-name=CentOS-$releasever - Updates
+name=CentOS-$releasever - Updates - OVH BHS
 #mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=updates
 #baseurl=http://mirror.centos.org/centos/$releasever/updates/$basearch/
 baseurl=http://mir1.ovh.ca/ftp.centos.org/$releasever/updates/$basearch/
@@ -29,7 +29,7 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-6
 
 #additional packages that may be useful
 [extras]
-name=CentOS-$releasever - Extras
+name=CentOS-$releasever - Extras - OVH BHS
 #mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=extras
 #baseurl=http://mirror.centos.org/centos/$releasever/extras/$basearch/
 baseurl=http://mir1.ovh.ca/ftp.centos.org/$releasever/extras/$basearch/
@@ -38,7 +38,7 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-6
 
 #additional packages that extend functionality of existing packages
 [centosplus]
-name=CentOS-$releasever - Plus
+name=CentOS-$releasever - Plus - OVH BHS
 #mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=centosplus
 #baseurl=http://mirror.centos.org/centos/$releasever/centosplus/$basearch/
 baseurl=http://mir1.ovh.ca/ftp.centos.org/$releasever/centosplus/$basearch/
@@ -48,7 +48,7 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-6
 
 #contrib - packages by Centos Users
 [contrib]
-name=CentOS-$releasever - Contrib
+name=CentOS-$releasever - Contrib - OVH BHS
 #mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=contrib
 #baseurl=http://mirror.centos.org/centos/$releasever/contrib/$basearch/
 baseurl=http://mir1.ovh.ca/ftp.centos.org/$releasever/contrib/$basearch/
