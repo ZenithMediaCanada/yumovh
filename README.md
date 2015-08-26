@@ -9,3 +9,7 @@ wget https://github.com/ZenithMediaCanada/yumovh/archive/master.zip <br />
 unzip master.zip <br />
 cp ~/yumovh-master/*.repo /etc/yum.repo.d/ <br />
 done
+<br />
+<br />
+
+Update: Added EPEL ovh.net mirrors
