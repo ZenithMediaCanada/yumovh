@@ -7,7 +7,7 @@ this will allow you to update using the local server and not going online, in th
 <br />
 wget https://github.com/ZenithMediaCanada/yumovh/archive/master.zip -O ~/master.zip<br />
 unzip ~/master.zip -d ~/ <br />
-cp ~/yumovh-master/*.repo /etc/yum.repo.d/ <br />
+cp ~/yumovh-master/*.repo /etc/yum.repos.d/ <br />
 rm ~/master.zip <br />
 rm -rf ~/yumovh-master<br />
 done
