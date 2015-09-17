@@ -14,7 +14,8 @@
 name=CentOS-$releasever - Base - OVH BHS
 #mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=os
 #baseurl=http://mirror.centos.org/centos/$releasever/os/$basearch/
-baseurl=http://mir1.ovh.ca/ftp.centos.org/$releasever/os/$basearch/
+failovermethod=priority
+baseurl=http://mir1.ovh.ca/ftp.centos.org/$releasever/os/$basearch/ http://mir8.ovh.net/ftp.centos.org/$releasever/os/$basearch/
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-6
 
@@ -23,7 +24,8 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-6
 name=CentOS-$releasever - Updates - OVH BHS
 #mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=updates
 #baseurl=http://mirror.centos.org/centos/$releasever/updates/$basearch/
-baseurl=http://mir1.ovh.ca/ftp.centos.org/$releasever/updates/$basearch/
+failovermethod=priority
+baseurl=http://mir1.ovh.ca/ftp.centos.org/$releasever/updates/$basearch/ http://mir8.ovh.net/ftp.centos.org/$releasever/updates/$basearch/
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-6
 
@@ -32,7 +34,8 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-6
 name=CentOS-$releasever - Extras - OVH BHS
 #mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=extras
 #baseurl=http://mirror.centos.org/centos/$releasever/extras/$basearch/
-baseurl=http://mir1.ovh.ca/ftp.centos.org/$releasever/extras/$basearch/
+failovermethod=priority
+baseurl=http://mir1.ovh.ca/ftp.centos.org/$releasever/extras/$basearch/ http://mir8.ovh.net/ftp.centos.org/$releasever/extras/$basearch/
 gpgcheck=1
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-6
 
@@ -41,7 +44,8 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-6
 name=CentOS-$releasever - Plus - OVH BHS
 #mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=centosplus
 #baseurl=http://mirror.centos.org/centos/$releasever/centosplus/$basearch/
-baseurl=http://mir1.ovh.ca/ftp.centos.org/$releasever/centosplus/$basearch/
+failovermethod=priority
+baseurl=http://mir1.ovh.ca/ftp.centos.org/$releasever/centosplus/$basearch/ http://mir8.ovh.net/ftp.centos.org/$releasever/centosplus/$basearch/
 gpgcheck=1
 enabled=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-6
@@ -51,7 +55,8 @@ gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-6
 name=CentOS-$releasever - Contrib - OVH BHS
 #mirrorlist=http://mirrorlist.centos.org/?release=$releasever&arch=$basearch&repo=contrib
 #baseurl=http://mirror.centos.org/centos/$releasever/contrib/$basearch/
-baseurl=http://mir1.ovh.ca/ftp.centos.org/$releasever/contrib/$basearch/
+failovermethod=priority
+baseurl=http://mir1.ovh.ca/ftp.centos.org/$releasever/contrib/$basearch/ http://mir1.ovh.net/ftp.centos.org/$releasever/contrib/$basearch/
 gpgcheck=1
 enabled=0
 gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-CentOS-6
